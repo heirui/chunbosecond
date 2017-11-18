@@ -1,0 +1,43 @@
+#pgwModalBackdrop {position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,.7);z-index: 2500;}
+#pgwModal {width: 100%; height: 100%; position: fixed; z-index: 3000; top: 0px; left: 0; right: 0; bottom: 0;}
+
+input,button,select,textarea{outline:none;border:none;}
+a:hover{text-decoration: none;}
+.pm-container{width: 580px; background: #fff; margin: 0 auto!important; position: fixed; border-radius: 2px; left: 50%; top: 50%; margin-top: 0; transform: translate(-50%,-50%);}
+.pgwModal .pm-container .pm-body{max-width: 580px!important;margin: 0 auto;margin-top: 39px!important;}
+.pgwModal .pm-title{padding: 30px 0 0!important; font-size: 32px!important; color: #33495F!important; line-height: 84px!important; text-align: center; height: auto!important;}
+.pgwModal .pm-close{position: absolute!important; top: 18px!important; right: 24px!important; width: 23px; height: 23px; background-image: -webkit-image-set(url(https://sstatic.chunboimg.com/images/login_icon_1x.png) 1x,url(https://sstatic.chunboimg.com/images/login_icon_2x.png) 2x); background-repeat: no-repeat; background-position: -39px -31px; cursor: pointer!important;}
+.pgwModal .pm-close span.pm-icon{background: none!important; display: block; width: 100%; height: 100%;}
+.pm-content .login_content{padding: 0 127px 12px 123px;position: relative;}
+.pm-content .get_back_password{padding: 0 127px 30px 123px;position: relative;}
+.pm-content .disabled_mask{background: rgba(0,0,0,.1); position: absolute; top: 0; left: 0; bottom: 0; right: 0; cursor: no-drop;} 
+.pm-content .disabled_mask .loading{position: absolute;top: 50%;left: 50%;width: 50px;height: 50px;    background: url(https://sstatic.chunboimg.com/m/0.1.0/img/cart-loading.png);transform: translate(-50%,-50%);background-size: 100%;}
+.pm-content .input{width: 292px!important;height: 22px;overflow: hidden;border: 1px solid #c3c8cc;border-radius: 2px;margin-top: 18px;font-size: 16px;line-height: 22px;padding: 14px 18px;}
+.pm-content .tip_error{width: 330px;height: 44px;margin-top: 13px;border-radius: 2px;background-color: #fcf2f1;font-size: 15px;color: #e94d3c;line-height: 44px;text-align: center;display: none;}
+.pm-content .input.verify_num{float: left;width: 122px!important;}
+.pm-content .verify_img_box{display: none;}
+/*.login_account_password .verify_img_box,.get_back_password .verify_img_box{display: none;}*/
+.pm-content .verify_img_box .input{float: left;width: 122px!important;}
+.pm-content .verify_img_box img{float: right;width: 158px;height: 50px;margin-top: 18px;border: 1px solid #2bbc69;border-radius: 2px;}
+.pm-content button.getSmsVerify{float: right;width: 160px;height: 50px;padding: 0;border: 1px solid #2bbc68;color: #2bbc68;background: #fff;border-radius: 2px;font-size: 16px;text-align: center;line-height: 50px;margin-top: 18px;font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica,"Microsoft YaHei","微软雅黑","MicrosoftJhengHei","华文细黑","STHeiti";cursor: pointer;}
+
+.pm-content button.getSmsVerify.disabled{width: 160px;height: 50px;border: 1px solid #d1d5d8;color: #fff;background: #d1d5d8;}
+.pm-content .tip_voice{width: 294px;height: 42px;padding-left: 34px;margin-top: 18px;background: #fff9ea;border: 1px solid #fce7ab;font-size: 15px;color: #333;line-height: 42px;position: relative;display: none;}
+.pm-content .tip_voice i{position: absolute;top: 11px;left: 12px;width: 19px;height: 19px;background-image: -webkit-image-set(url(https://sstatic.chunboimg.com/images/login_icon_1x.png) 1x,url(https://sstatic.chunboimg.com/images/login_icon_2x.png) 2x);background-repeat: no-repeat ;background-position: -178px -30px;}
+.pm-content .tip_voice .yyCode{text-decoration: underline;color: #333;cursor: pointer;}
+.pm-content .tip_voice .time{color: #9a9a9a;}
+.pm-content .btn{display: block;width: 330px;height: 50px;margin-top: 18px;background: #2bbc68;border-radius: 2px;font-size: 16px;color: #fff;line-height: 50px;text-align: center;}
+.pm-content .btn.disabled{background: #d1d5d8;}
+.pm-content .tip_regmobile{width: 318px;height: 44px;padding-left: 12px;margin-top: 13px;font-size: 13px;color: #33495f;line-height: 44px;}
+.pm-content .tip_regmobile a{text-decoration: underline;color: #33495f;}
+.pm-content .popup_tips{height: 86px;border-top: 2px solid #f6f6f6;font-size: 16px;color: #33495f;line-height: 86px;text-align: center;}
+.pm-content .popup_tips a.login_account_password_btn span{display: inline-block;width: 14px;height: 18px;margin-right: 7px;position: relative;top: 2px;background-image: -webkit-image-set(url(https://sstatic.chunboimg.com/images/login_icon_1x.png) 1x,url(https://sstatic.chunboimg.com/images/login_icon_2x.png) 2x);background-repeat: no-repeat ;background-position: -92px -31px;}
+.pm-content .popup_tips a.login_sms_btn span{display: inline-block;width: 15px;height: 20px;margin-right: 7px;background-image: -webkit-image-set(url(https://sstatic.chunboimg.com/images/login_icon_1x.png) 1x,url(https://sstatic.chunboimg.com/images/login_icon_2x.png) 2x);background-repeat: no-repeat ;background-position: -135px -30px;position: relative;top: 4px;}
+.pm-content .popup_tips a.remember_password{color: #2bbc69;}
+.pm-content .popup_tips a.remember_password span{color: #333;}
+.pm-content .popup_member_info{margin-top: 13px;height: 20px;line-height: 20px;}
+.pm-content .popup_member_info .btn_checkbox{width: 20px;height: 20px;display: inline-block;vertical-align: middle;margin-right: 10px;background-image: -webkit-image-set(url(https://sstatic.chunboimg.com/images/login_icon_1x.png) 1x,url(https://sstatic.chunboimg.com/images/login_icon_2x.png) 2x);background-repeat: no-repeat ;background-position: -326px -31px;}
+.pm-content .popup_member_info .btn_checkbox_cur{background-position: -276px -31px;}
+.pm-content .popup_member_info .forget{float: right;color: #2bbc69;}
+.pm-content .input_error{color: #e94d3c;border-color: #e94d3c; }
+.pm-content .input_success{color: #2bbc69;border-color: #2bbc69;}
